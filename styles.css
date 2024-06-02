@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background-container {
+    background-image: url('background.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-link {
+    position: absolute;
+}
+
+.image-link:nth-child(1) a img {
+    width: 370px; /* Width for the first image */
+}
+
+.image-link:nth-child(2) a img {
+    width: 150px;
+    transform: rotate(-15deg);
+}
+.image-link:nth-child(3) a img {
+    width: 250px;
+    transform: rotate(0deg);
+}
+.image-link:nth-child(4) a img {
+    width: 250px;
+    transform: rotate(0deg);
+}
+.image-link:nth-child(5) a img {
+    width:300px;
+    transform: rotate(0deg);
+}
+.image-link:nth-child(6) a img {
+    width:50px;
+    transform: rotate(5deg);
+}
+/* Position the images */
+.image-link:nth-child(1) {
+    top: 64%;
+    left: 64%;
+}
+
+.image-link:nth-child(2) {
+    top: 45%;
+    left: 60%;
+}
+.image-link:nth-child(3) {
+    top: 15%;
+    left: 65%;
+}
+.image-link:nth-child(4) {
+    top: 10%;
+    left: 55%;
+}
+.image-link:nth-child(5) {
+    top: 8%;
+    left: 76%;
+}
+.image-link:nth-child(6) {
+    top: 57%;
+    left: 34%;
+}
+
+
+/* Add more positioning rules for additional images */
